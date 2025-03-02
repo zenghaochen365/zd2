@@ -61,7 +61,7 @@ def delete_task(task_id):
 # 首页
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('aaa.html')
 
 if __name__ == '__main__':
     init_db()
