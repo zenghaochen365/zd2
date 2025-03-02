@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZengDoing - 待办事项</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>ZengDoing - 待办事项</h1>
+        <div class="task-form">
+            <input type="text" id="task-input" placeholder="输入新任务">
+            <button id="add-task-btn">➕ 添加任务</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
